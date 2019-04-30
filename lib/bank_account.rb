@@ -9,17 +9,17 @@ class BankAccount
     @status = status 
   end 
   
-  def name 
-    @name 
-  end 
+  # def name 
+  #   @name 
+  # end 
   
-  def balance 
-    @balance 
-  end 
+  # def balance 
+  #   @balance 
+  # end 
 
-  def status 
-    @status 
-  end 
+  # def status 
+  #   @status 
+  # end 
   
   def deposit(amount) 
     @balance = @balance += amount 
